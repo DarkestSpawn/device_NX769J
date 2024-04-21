@@ -1,0 +1,23 @@
+# Soft dependencies extracted from modules themselves.
+softdep q6_notifier_dlkm pre: qcom_q6v5_pas
+softdep c1dcvs_scmi_v2 pre: qcom_scmi_client
+softdep msm_video pre: subsys-pil-tz msm-mmrm
+softdep mpam pre: qcom_scmi_client
+softdep zte_tpd pre: msm_drm
+softdep msm_kgsl pre: arm_smmu nvmem_qfprom socinfo
+softdep msm_performance pre: qcom_scmi_client
+softdep spcom pre: spss_utils
+softdep msm_eva pre: msm-mmrm
+softdep msm_eva pre: synx-driver
+softdep msm_eva pre: frpc-adsprpc
+softdep ipclite pre: qcom_hwspinlock
+softdep dynpf_scmi pre: qcom_scmi_client
+softdep qsee_ipc_irq_bridge pre: qcom_ipcc
+softdep dwc3_msm pre: phy-generic phy-msm-snps-hs phy-msm-ssusb-qmp eud
+softdep machine_dlkm pre: bt_fm_slim
+softdep ipam pre: subsys-pil-tz
+softdep ipam pre: qcom-arm-smmu-mod
+softdep leds_qti_tri_led pre: pwm-qti-lpg
+softdep soc_fan pre: pwm-soc-fan
+softdep memlat pre: qcom_scmi_client
+softdep spss_utils pre: qcom_spss
