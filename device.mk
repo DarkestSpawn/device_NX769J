@@ -24,8 +24,8 @@ $(call inherit-product, vendor/twrp/config/common.mk)
 
 PRODUCT_PACKAGES += \
     bootctrl.nubia_sm8650.recovery \
-    android.hardware.boot@1.2-impl-qti.recovery
-	qcom_decrypt \
+    android.hardware.boot@1.2-impl-qti.recovery \
+    qcom_decrypt \
     qcom_decrypt_fbe
 
 # SHIPPING API
