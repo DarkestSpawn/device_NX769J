@@ -57,6 +57,14 @@
             <instance>default</instance>
         </interface>
     </hal>
+    <hal format="aidl">
+        <name>android.system.keystore2</name>
+        <version>3</version>
+        <interface>
+            <name>IKeystoreService</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
     <hal format="hidl" max-level="7">
         <name>android.system.net.netd</name>
         <transport>hwbinder</transport>
