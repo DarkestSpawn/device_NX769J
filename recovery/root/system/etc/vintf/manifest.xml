@@ -57,15 +57,6 @@
             <instance>default</instance>
         </interface>
     </hal>
-    <hal format="hidl" optional="true">
-        <name>android.hardware.keymaster</name>
-	<transport>hwbinder</transport>
-	<version>4.0</version>
-        <interface>
-            <name>IKeymasterDevice</name>
-            <instance>strongbox</instance>
-        </interface>
-    </hal>
     <hal format="hidl" max-level="7">
         <name>android.system.net.netd</name>
         <transport>hwbinder</transport>
