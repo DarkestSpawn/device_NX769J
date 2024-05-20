@@ -47,6 +47,25 @@
         <transport arch="32+64">passthrough</transport>
         <fqname>@1.0::IMapper/ashmem</fqname>
     </hal>
+    <hal format="hidl" optional="true"> 
+        <name>android.hardware.keymaster</name>
+	<transport>hwbinder</transport>
+	<version>3.0</version>
+        <version>4.0</version>
+        <interface>
+            <name>IKeymasterDevice</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="hidl" optional="true">
+        <name>android.hardware.keymaster</name>
+	<transport>hwbinder</transport>
+	<version>4.0</version>
+        <interface>
+            <name>IKeymasterDevice</name>
+            <instance>strongbox</instance>
+        </interface>
+    </hal>
     <hal format="hidl" max-level="7">
         <name>android.system.net.netd</name>
         <transport>hwbinder</transport>
