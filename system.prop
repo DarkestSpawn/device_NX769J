@@ -4,3 +4,6 @@ ro.boot.dynamic_partitions=true
 
 # Gatekeeper
 vendor.gatekeeper.disable_spu=true
+
+# Spr DRM
+vendor.display.enable_spr=1
