@@ -22,7 +22,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/emulated_storage.mk)
 # Configure twrp common.mk
 $(call inherit-product, vendor/twrp/config/common.mk)
 
-PRODUCT_PACKAGES += \
+PRODUCT_PACKAGES += update_engine \
+    update_engine_client \
+    update_verifier \
+    update_engine_sideload  \
     bootctrl.nubia_sm8650.recovery \
     android.hardware.boot@1.2-impl-qti.recovery \
     qcom_decrypt \
