@@ -5,7 +5,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-DEVICE_PATH := device/nubia/NX769J
+DEVICE_PATH := device/Nubia/NX769J
 
 # For building with minimal manifest
 ALLOW_MISSING_DEPENDENCIES := true
