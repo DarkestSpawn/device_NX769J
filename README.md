@@ -14,7 +14,7 @@
 			<tr>
 				<td>Chipset</td>
 				<td>
-					<a href="url"><img src="https://img.shields.io/badge/Qualcomm®_Snapdragon™-8_Gen_3-gold?style=flat-square&logo=Snapdragon&logoColor=white&labelColor=%23C33139" style="max-width: 100%;"></a>
+					<a href="https://www.qualcomm.com/products/mobile/snapdragon/smartphones/snapdragon-8-series-mobile-platforms/snapdragon-8-gen-3-mobile-platform"><img src="https://img.shields.io/badge/Qualcomm®_Snapdragon™-8_Gen_3-gold?style=flat-square&logo=Snapdragon&logoColor=white&labelColor=%23C33139" style="max-width: 100%;"></a>
 				</td>
 			</tr>
 			<tr>
@@ -29,7 +29,7 @@
 			<tr>
 				<td>GPU</td>
 				<td>
-					<a href="url"><img src="https://img.shields.io/badge/Qualcomm®-Adreno™_750-green?style=flat-square&logo=qualcomm&logoColor=white&labelColor=3253DC" style="max-width: 100%;"></a><br>
+					<a href="https://www.qualcomm.com/products/technology/processors/adreno/overview"><img src="https://img.shields.io/badge/Qualcomm®-Adreno™_750-green?style=flat-square&logo=qualcomm&logoColor=white&labelColor=3253DC" style="max-width: 100%;"></a><br>
 				</td>
 			</tr>
 			<tr>
