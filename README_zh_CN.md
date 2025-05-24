@@ -49,8 +49,8 @@
       			<tr>
         			<td>电池容量</td>
         			<td>
-          				6500mAh，  9 Pro,  80W<br>
-          				5500mAh，  9Pro+,  165W
+          				6500mAh，  9 Pro， 80W<br>
+          				5500mAh，  9Pro+，  165W
         			</td>
       			</tr>
       			<tr>  
