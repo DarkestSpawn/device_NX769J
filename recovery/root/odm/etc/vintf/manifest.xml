@@ -1,0 +1,37 @@
+<!--
+    Input:
+        vendor/zte/fingerprint/fingerprint_vendor/goodix_9688_8650/manifest_gf95xx.xml
+        vendor/zte/fingerprint/fingerprint_vendor/ifaaaidl/zteifaaaidl.xml
+        vendor/zte/st-nfc/build/manifest_se_aidl.xml
+        vendor/zte/subsys-components/modem/manifest_dual_sim.xml
+        vendor/zte/subsys-components/subsystem_daemon_vendor/manifest.xml
+        vendor/zte/zte_connectivity/zte-wifi/manifest.xml
+-->
+<manifest version="7.0" type="device">
+    <hal format="aidl">
+        <name>android.hardware.secure_element</name>
+        <fqname>ISecureElement/eSE1</fqname>
+    </hal>
+    <hal format="aidl">
+        <name>vendor.goodix.hardware.biometrics.fingerprint</name>
+        <fqname>IGoodixFingerprintDaemon/default</fqname>
+    </hal>
+    <hal format="hidl">
+        <name>vendor.hardware.zte.wifi</name>
+        <transport>hwbinder</transport>
+        <fqname>@1.0::IWifi/default</fqname>
+    </hal>
+    <hal format="aidl">
+        <name>vendor.zte.fingerprint.ifaaaidl</name>
+        <fqname>IIfaaAidlDaemon/default</fqname>
+    </hal>
+    <hal format="aidl">
+        <name>vendor.zte.modem</name>
+        <fqname>IModem/instance0</fqname>
+        <fqname>IModem/instance1</fqname>
+    </hal>
+    <hal format="aidl">
+        <name>vendor.zte.subsys</name>
+        <fqname>ISubsys/subsys</fqname>
+    </hal>
+</manifest>

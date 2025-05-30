@@ -129,18 +129,21 @@ PLATFORM_SECURITY_PATCH := 2099-12-31
 VENDOR_SECURITY_PATCH := 2099-12-31
 PLATFORM_VERSION := 16.1.0
 
+#Tool
+TW_INCLUDE_FUSE_EXFAT := true
+TW_INCLUDE_FUSE_NTFS := true
+TW_INCLUDE_LPDUMP := true
+TW_INCLUDE_NTFS_3G := true
+
 # Other TWRP Configurations
 TW_THEME := portrait_hdpi
 TW_FRAMERATE := 60
 RECOVERY_SDCARD_ON_DATA := true
 TARGET_RECOVERY_QCOM_RTC_FIX := true
 TW_EXCLUDE_DEFAULT_USB_INIT := true
-TW_INCLUDE_NTFS_3G := true
 TW_NO_EXFAT_FUSE := true
 TW_USE_TOOLBOX := true
 TARGET_USES_MKE2FS := true
-TW_INCLUDE_FUSE_EXFAT := true
-TW_INCLUDE_FUSE_NTFS := true
 TW_INPUT_BLACKLIST := "hbtp_vm"
 TW_BRIGHTNESS_PATH := "/sys/class/backlight/panel0-backlight/brightness"
 TW_MAX_BRIGHTNESS := 2047
@@ -148,10 +151,17 @@ TW_EXTRA_LANGUAGES := true
 TW_DEFAULT_BRIGHTNESS := 1000
 TW_EXCLUDE_APEX := true
 TW_HAS_EDL_MODE := true
-# Haptic
+
+#Vibrator
 TW_SUPPORT_INPUT_AIDL_HAPTICS := false
 TW_SUPPORT_INPUT_AIDL_HAPTICS_FQNAME := "IVibrator/vibratorfeature"
 TW_SUPPORT_INPUT_AIDL_HAPTICS_FIX_OFF := true
+TARGET_RECOVERY_DEVICE_MODULES += libexpat android.hardware.vibrator-V2-ndk
+RECOVERY_LIBRARY_SOURCE_FILES += \
+    $(TARGET_OUT_SHARED_LIBRARIES)/libexpat.so \
+    $(TARGET_OUT_SHARED_LIBRARIES)/android.hardware.vibrator-V2-ndk.so
+
+# Haptic
 TW_USE_SERIALNO_PROPERTY_FOR_DEVICE_ID := true
 TW_LOAD_VENDOR_MODULES := "adsp_loader_dlkm.ko qti_battery_charger.ko"
 TW_CUSTOM_CPU_TEMP_PATH := "/sys/class/thermal/thermal_zone35/temp"
@@ -159,3 +169,5 @@ TW_BATTERY_SYSFS_WAIT_SECONDS := 6
 TW_BACKUP_EXCLUSIONS := /data/fonts
 TW_DEVICE_VERSION := NX769J
 TW_NO_HAPTICS := true
+
+
