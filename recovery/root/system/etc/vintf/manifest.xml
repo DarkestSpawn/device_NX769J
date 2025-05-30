@@ -65,5 +65,6 @@
         <version>32</version>
         <version>33</version>
         <version>34</version>
+        <version>35</version>
     </system-sdk>
 </manifest>
