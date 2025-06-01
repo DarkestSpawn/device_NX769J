@@ -85,7 +85,7 @@
       			<tr>
         			<td>系统及安卓版本</td>
         			<td>
-          				RedMagicOS 9(Android 14)
+          				RedMagicOS 10 (Android 15)
         			</td>
       			</tr>
       			<tr>
